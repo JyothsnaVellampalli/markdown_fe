@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+*{
+    margin:0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.from-item{
+    padding-top: 5px;
+    color :rgb(238, 174, 12);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form-container{
+    margin-left:38%;
+    /* background-color: bisque; */
+   /* color:white; */
+   color:black;
+    padding:10px;
+    width:max-content;
+    /* border : 2px solid white; */
+    border-radius: 5px;
+    /* background-color:white; */
+    
+}
+@media only screen and (max-width: 600px) {
+    .form-container{
+        margin: auto;
+        width: fit-content;
+        border:0px;
+        /* background-color:white; */
+        margin-top: 10px;
+    }
   }
+.form-button{
+    margin-top:10px;
+    float:center;
+    background-color:rgb(238, 179, 29);
+    margin-bottom:10px;
+    border : 1px solid rgb(238, 179, 29);
+    
+}
+input{
+    width: 250px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-bar{
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    justify-content:space-between;
+   
+}
+.container{
+    width: 100%;
+    height : auto;
+    
+}
+/* .grid-container{
+    display : grid;
+    grid-template-columns: 30% 70%;
+} */
+
+/* @media only screen and (max-width: 600px) {
+    .grid-container{
+        display : block;
+    }
+  } */
+  
+a{
+    color:green;
+}
+a:hover{
+    color: greenyellow;
+}
+.form-button:hover{
+    border: solid rgb(238, 174, 12);
+}
+input{
+    border : 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+input:hover{
+    border: 2px solid rgb(102, 101, 101);
+}
+.form-button:active{
+    background-color:white;
+}
+.navbar{
+    width : 100%;
+}
+.nav-item{
+    color :rgb(238, 174, 12);
+}
+.navbar-email{
+    color : white; 
+    font-size : 18px; 
+    margin : auto;
+    
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.col{
+    padding-top:10px;
+    /* padding-left: 30px; */
   }
-  to {
-    transform: rotate(360deg);
+
+textarea{
+    width : 500px;
+    margin-left: 20px;
+ }
+
+  @media (max-width: 769px) { 
+    .col{
+      border : 0px white;
+      width : 100%;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom : 10px;
+    }
+    textarea{
+      margin: 10px;
+      width: 300px;
+      border : 1px solid gray;
+    }
   }
-}
+  .markdown{
+    color : rgb(42, 7, 199);
+    height : auto;
+    height: fit-content;
+    margin : 10px;
+  }
+  .title{
+    color : purple;
+  }
+  .carousel{
+      width : 100%;
+      float : right;
+      margin-right: 15px;
+  }
+  img{
+      width: 100%;
+  }
+  .homeText{
+      /* margin-left: 10px; */
+      font-size: 22px;
+      color : purple;
+  }
+  
+  @media (max-width: 769px) {
+      .homeText{
+          font-size: 18px;
+      }
+      .carousel{
+          border: 0px solid rgb(102, 101, 101);
+          
+      }
+  }
+
+  @media(min-width: 768px){
+      #home-wrapper{
+          margin-left:-80px;
+      }
+  }
+  .carousel-inner{
+    margin-left:10px;
+    border:2px solid rgb(177, 176, 176);
+    box-shadow:1px 1px 12px 5px rgb(182, 181, 181);
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
