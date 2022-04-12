@@ -94,9 +94,9 @@ function Register() {
       {match? <p>Password should match</p>:<></>}
       <h3 style={{color:"green"}}>{message}</h3>
       {message == "Registered successfully." ? 
-      (<h5>Verification link has been sent to your mail. <br/>Verify to login</h5>) : <></>}
+      (<Link to='/login'>Login</Link>) :<></>}
       </div>
-      <Link to={'/verification'}>Verify</Link>
+      
     </div>
     </div>
   )
